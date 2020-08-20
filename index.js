@@ -4,7 +4,7 @@ var input = document.getElementById('eqn');
 var scale = document.getElementById('scale');
 var width = canvas.width;
 var height = canvas.height;
-var axes={};
+var axes = {};
     
 function draw() {
 	axes.x = 0.5 + 0.5*canvas.width;  
