@@ -61,10 +61,10 @@ function drawGraph (c,axes,func,s) {
         xx = s*i; 
         yy = s*func();
         if (i == iMin) {
-            c.moveTo(x + xx,y - yy);
+            c.moveTo(x + xx, y - yy);
         }
         else {
-            c.lineTo(x + xx,y - yy);
+            c.lineTo(x + xx, y - yy);
         }
     }
     c.stroke();
