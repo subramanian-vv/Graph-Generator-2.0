@@ -68,8 +68,9 @@ function plot() {
 		if(s == '')
 			s=10;
 
-		function func(x)
+		function func(x) {
 			return eval(exp);
+		}
 
 		drawGraph(c,axes,func,s);
 	}   
